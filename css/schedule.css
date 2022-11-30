@@ -15,7 +15,7 @@ body{
     position: fixed;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     font-family: 'Google Sans Text', sans-serif;
-    z-index: 999;
+    z-index: 9999;
   }
 
   .nav > .nav-header {
@@ -51,6 +51,7 @@ body{
     display: inline;
     float: right;
     font-size: 18px;
+    z-index: 9999;
   }
 
   .nav > .nav-links > a {
