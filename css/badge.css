@@ -225,6 +225,15 @@ footer {
   .main-container {
     flex-direction: column;
   }
+  .input-panel {
+    width: 100%;
+    padding: 24px 0;
+    min-height: 50vh;
+    
+  }
+  .input-panel label {
+    font-size: 1.5rem;
+  }
   .input-panel,
   .preview-panel {
     width: 100%;
