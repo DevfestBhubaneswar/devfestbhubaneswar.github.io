@@ -69,8 +69,8 @@ const draw = () => {
       }
       default: {
         const size = Math.min(image.width, image.height);
-        canvas.width = 500;
-        canvas.height = 500;
+        canvas.width = 1080;
+        canvas.height = 1080;
         const hRatio = canvas.width / image.width;
         const vRatio = canvas.height / image.height;
         const ratio = Math.max(hRatio, vRatio);
